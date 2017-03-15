@@ -26,29 +26,11 @@
     15. Footer
 -------------------------------------
 =====================================
-*/
-
-
-body{
-    font-family: 'Roboto', sans-serif;
-    line-height: 28px;
-    font-weight: 300;
-    font-size: 14px;
-    color:#282828;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-body, html{
-    overflow-x:hidden;
-}
 
 /* Link style
 ---------------------------------------------------------*/
 a {
-    color: #68c3a3;
+    color: #fffff;
 }
 a,
 a > * {
