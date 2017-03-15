@@ -741,7 +741,7 @@ Resume Timeline
     float: left;
     width: 43%;
     text-align: right;
-    border: 1px solid #eee;
+    border: 0px solid #eee;
     position: relative;
 }
 
