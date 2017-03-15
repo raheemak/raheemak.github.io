@@ -1469,8 +1469,8 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		min-height: 40vh;
-		height: 40vh;
+		min-height: 25vh;
+		height: 25vh;
 		position: relative;
 		background: #000;
 		background-image: url(../../images/banner.jpg);
