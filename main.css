@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fffff8;
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#name {
+    font-family: "Noto Serif", Georgia, serif;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#nav ul > li {
+    display: inline-block;
+    margin: 0 6px;
+    font-size: 24px;
+}
+
+#about {
+    text-align: center;
+}
+
+a {
+    color: #22d6e8;
+    font-style:italic;
+}
+
+a:hover, a:focus {
+    font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+    #name {
+        font-size: 50px; 
+    }
+    #about {
+        font-size: 24px;
+        width: 80%;
+    }
+}
+
+@media (min-width: 1100px) {
+    #name {
+        font-size: 76px; 
+    }
+    #about {
+        font-size: 30px;
+        width: 45%;
+    }
+}
